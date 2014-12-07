@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinancingApp.ADODataAcess", "FinancingApp.ADODataAcess\FinancingApp.ADODataAcess.csproj", "{5D238B27-6489-4D72-ABE4-DCA847E98ABE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinancingApp.ConsoleApplication", "FinancingApp.ConsoleApplication\FinancingApp.ConsoleApplication.csproj", "{27E6E7E8-F04A-4891-8A1F-9EC0FD5199FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinancingApp.DataAcess.DBFirst", "FinancingApp.DataAcess.DBFirst\FinancingApp.DataAcess.DBFirst.csproj", "{EB474CD7-233F-4BE7-A2F2-07766E6F62D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinancingApp.Model.DbFirst", "FinancingApp.Model.DbFirst\FinancingApp.Model.DbFirst.csproj", "{76A0511A-5107-4B80-9179-823A8C8D635C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinancingApp.Model.CodeFirst", "FinancingApp.Model.CodeFirst\FinancingApp.Model.CodeFirst.csproj", "{8915409C-C7B9-469B-8A93-D079B29BC1D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinancingApp.WebForms", "FinancingApp.WebForms\FinancingApp.WebForms.csproj", "{B6426957-582C-43F6-B218-872F4AE68DEF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinancingApp.Web", "FinancingApp.Web\FinancingApp.Web.csproj", "{E44B71F3-151B-4AB7-8200-61846C4C1FDD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5D238B27-6489-4D72-ABE4-DCA847E98ABE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D238B27-6489-4D72-ABE4-DCA847E98ABE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D238B27-6489-4D72-ABE4-DCA847E98ABE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D238B27-6489-4D72-ABE4-DCA847E98ABE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27E6E7E8-F04A-4891-8A1F-9EC0FD5199FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27E6E7E8-F04A-4891-8A1F-9EC0FD5199FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27E6E7E8-F04A-4891-8A1F-9EC0FD5199FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27E6E7E8-F04A-4891-8A1F-9EC0FD5199FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB474CD7-233F-4BE7-A2F2-07766E6F62D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB474CD7-233F-4BE7-A2F2-07766E6F62D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB474CD7-233F-4BE7-A2F2-07766E6F62D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB474CD7-233F-4BE7-A2F2-07766E6F62D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76A0511A-5107-4B80-9179-823A8C8D635C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76A0511A-5107-4B80-9179-823A8C8D635C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76A0511A-5107-4B80-9179-823A8C8D635C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76A0511A-5107-4B80-9179-823A8C8D635C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8915409C-C7B9-469B-8A93-D079B29BC1D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8915409C-C7B9-469B-8A93-D079B29BC1D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8915409C-C7B9-469B-8A93-D079B29BC1D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8915409C-C7B9-469B-8A93-D079B29BC1D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6426957-582C-43F6-B218-872F4AE68DEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6426957-582C-43F6-B218-872F4AE68DEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6426957-582C-43F6-B218-872F4AE68DEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6426957-582C-43F6-B218-872F4AE68DEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E44B71F3-151B-4AB7-8200-61846C4C1FDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E44B71F3-151B-4AB7-8200-61846C4C1FDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E44B71F3-151B-4AB7-8200-61846C4C1FDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E44B71F3-151B-4AB7-8200-61846C4C1FDD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

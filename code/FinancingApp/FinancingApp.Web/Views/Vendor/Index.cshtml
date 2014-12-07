@@ -1,0 +1,28 @@
+﻿@model FinancingApp.Web.Models.VendorIndexViewModel
+
+@{
+    ViewBag.Title = "Vendors";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Vendors</h2>
+
+<table>
+    <tr>
+        <td>Name</td>
+        <td>City</td>
+        <td>State</td>
+    </tr>
+    @foreach(var vendor in Model.Vendors)
+    {
+        <tr>
+            <td> @Html.ActionLink("Edit", "Edit", "Vendor", new { id = vendor.VendorId }, null)  @Html.ActionLink("Delete", "Delete", "Vendor", new { id = vendor.VendorId }, null) </td>
+            <td>@vendor.Name</td>
+            <td>@vendor.Address.City</td>
+            <td>@vendor.Address.State</td>
+        </tr>
+    }
+</table>
+
+<br/>
+@Html.ActionLink("Create", "Create", "Vendor")  

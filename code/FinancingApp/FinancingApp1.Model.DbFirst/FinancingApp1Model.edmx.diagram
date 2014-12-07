@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="fa53ce7559a741729aeb1f29912c0f0f" Name="Diagram1">
+        <EntityTypeShape EntityType="FinancingApp1Model.Address" Width="1.5" PointX="0.75" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="FinancingApp1Model.Application" Width="1.5" PointX="5.25" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FinancingApp1Model.Customer" Width="1.5" PointX="3" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FinancingApp1Model.Employee" Width="1.5" PointX="3" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FinancingApp1Model.Equipment" Width="1.5" PointX="3" PointY="8" IsExpanded="true" />
+        <EntityTypeShape EntityType="FinancingApp1Model.Profile" Width="1.5" PointX="0.75" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="FinancingApp1Model.SalesRepresentative" Width="1.5" PointX="3" PointY="14.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="FinancingApp1Model.Vendor" Width="1.5" PointX="3" PointY="10.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="FinancingApp1Model.VendorSalesRepresentative" Width="1.5" PointX="5.25" PointY="11" IsExpanded="true" />
+        <AssociationConnector Association="FinancingApp1Model.FK_Customer_Address" ManuallyRouted="false" />
+        <AssociationConnector Association="FinancingApp1Model.FK_Equipment_Address" ManuallyRouted="false" />
+        <AssociationConnector Association="FinancingApp1Model.FK_Vendor_Address" ManuallyRouted="false" />
+        <AssociationConnector Association="FinancingApp1Model.FK_Application_Customer" ManuallyRouted="false" />
+        <AssociationConnector Association="FinancingApp1Model.FK_Application_Employee" ManuallyRouted="false" />
+        <AssociationConnector Association="FinancingApp1Model.FK_Application_SalesRepresentative" ManuallyRouted="false" />
+        <AssociationConnector Association="FinancingApp1Model.FK_Application_Vendor" ManuallyRouted="false" />
+        <AssociationConnector Association="FinancingApp1Model.FK_Customer_Contact" ManuallyRouted="false" />
+        <AssociationConnector Association="FinancingApp1Model.FK_SalesRepresentative_Profile" ManuallyRouted="false" />
+        <AssociationConnector Association="FinancingApp1Model.FK_SalesRepresentative_Vendor_SalesRepresentative" ManuallyRouted="false" />
+        <AssociationConnector Association="FinancingApp1Model.FK_SalesRepresentative_Vendor_Vendor" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

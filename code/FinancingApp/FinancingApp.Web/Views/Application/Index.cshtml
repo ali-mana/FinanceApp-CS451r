@@ -1,0 +1,28 @@
+﻿@model FinancingApp.Web.Models.ApplicationIndexViewModel
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+
+<table>
+    <tr>
+        <td>Name</td>
+        <td>Create Date</td>
+        <td>Confirmation Number</td>
+     
+    </tr>
+    @foreach (var app in Model.Applications)
+    {
+        <tr>
+            <td>@app.Name</td>
+            <td>@app.CreatedDate</td>
+            <td>@Html.ActionLink(@app.ConfirmationNumber,  "Create")</td>
+            
+        </tr>
+    }
+</table>
+
+<br />
+@Html.ActionLink("Create Application", "Create", "Application")  
